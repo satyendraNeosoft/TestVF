@@ -1,0 +1,11 @@
+framework module TestVFFramework {
+  umbrella header "TestVFFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module TestVFFramework.Swift {
+    header "TestVFFramework-Swift.h"
+    requires objc
+}
